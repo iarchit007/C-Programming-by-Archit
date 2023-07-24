@@ -1,8 +1,7 @@
 #include <stdio.h>
 main()
 {
-    char ch1,a,b,c,d,e,f,g,h,i;
-    int i1,i2=365,i3=366;
+    char ch1,a,b,c,d,e,f,g,h,Y,N,n,y;
     printf("a= Sunday\n");
     printf("b= Monday\n");
     printf("c= Tuesday\n");
@@ -10,9 +9,9 @@ main()
     printf("e= Thursday\n");
     printf("f= Friday\n");
     printf("g= Saturday\n");
-    printf("How many days are there in the year: ");
-    scanf("%d",&i1);
-    if(i1==i2)
+    printf("Is this a leap year (Enter Y for Yes and N for No): ");
+    scanf("%c",&h);
+    if(h=='N'||h=='n')
     {
         printf("Enter the first day of the Year: ");
         scanf(" %c",&ch1);
@@ -41,7 +40,7 @@ main()
             printf("The last day of the year is: %c",'g');
         }
     }
-    if(i1==i3)
+    if(h=='Y'||h=='y')
     {
         printf("Enter the first day of the Year: ");
         scanf(" %c",&ch1);
