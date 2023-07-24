@@ -14,17 +14,17 @@ main()
         
         printf("a+b= %f",a+b);
     }
-    if(i1==2)   
+    else if(i1==2)   
     {
         
         printf("a-b= %f",a-b);
     }
-    if(i1==3)
+    else if(i1==3)
     {
         
         printf("a*b= %f",a*b);
     }
-    if(i1==4)
+    else if(i1==4)
     {
         
         printf("a/b= %f",a/b);
