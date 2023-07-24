@@ -1,13 +1,14 @@
 #include <stdio.h>
 main()
 {
-    int a,b,c;
+    float a,b,c,d,e,f,g;
     printf("Enter A Number (a): ");
-    scanf("%d",&a);
+    scanf("%f",&a);
     printf("Enter another Number (b): ");
     scanf("%d",&a);
-    printf("a+b= %d",a+b);
-    prinitf("a-b= %d",a-b);
-    printf("a*b= %d",a*b);
-    prinitf("a/b= %d",a/b);
+    c=a+b; d=a-b; e=a*b; f=a/b;
+    printf("a+b= %f",c);
+    prinitf("a-b= %f",d);
+    printf("a*b= %f",e);
+    prinitf("a/b= %f",f);
 }
